@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header/Header'
 import HeroBanner from './Components/HeroBanner/HeroBanner'
+import NoseClip from './Components/NoseClip/NoseClip'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,9 +13,8 @@ function App() {
     <>
       <section>
         <Header></Header>
-        <div>
-          <HeroBanner></HeroBanner>
-        </div>
+        <HeroBanner></HeroBanner>
+        <NoseClip></NoseClip>
 
       </section>
     </>
