@@ -10,7 +10,7 @@ import madicine from '../../assets/solution/medicine.png';
 
 const Solution = () => {
     return (
-        <div className='bg-[#6B2B00] py-16'>
+        <div className='bg-[#6B2B00] py-16 lg:-mt-12 mt-10'>
             <div className='lg:container mx-auto px-5 md:px-10'>
 
                 {/* ------------------pain section--------------- */}

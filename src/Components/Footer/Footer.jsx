@@ -21,7 +21,7 @@ const Footer = () => {
             <hr />
             <div className='lg:container mx-auto px-5 md:px-10'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-white mt-5'>
-                    <ul className='flex items-center gap-10'>
+                    <ul className='flex items-center lg:justify-start justify-center gap-10'>
                         <li className='font-medium text-base'>Privacy & Policy</li>
                         <li className='font-medium text-base'>Terms & Condition</li>
                     </ul>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <li className='font-medium text-base'>Resources</li>
                         <li className='font-medium text-base'>FAQ</li>
                     </ul>
-                    <div className='flex justify-end gap-3'>
+                    <div className='flex lg:justify-end justify-center gap-3'>
                         <BsDiscord size={50} className='border border-white p-3 rounded-lg' />
                         <FaTwitterSquare size={50} className='border border-white p-3 rounded-lg' />
                         <FaInstagram size={50} className='border border-white p-3 rounded-lg' />
