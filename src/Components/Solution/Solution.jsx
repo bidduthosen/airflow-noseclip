@@ -2,9 +2,10 @@ import React from 'react';
 
 import { GoDotFill } from "react-icons/go";
 import { HiBadgeCheck } from "react-icons/hi";
-import prob from '../../assets/solution/solu.png';
-import solv from '../../assets/solution/prob.png';
+import solv from '../../assets/solution/solu.png';
+import prob from '../../assets/solution/prob.png';
 import work from '../../assets/solution/Worksman.png';
+import madicine from '../../assets/solution/medicine.png';
 
 
 const Solution = () => {
@@ -53,7 +54,7 @@ const Solution = () => {
                 </div>
 
                 {/* ------------------How It Works section--------------- */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 ">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-40 ">
                     <div className='text-white'>
                         <h2 className='text-5xl font-semibold'>How It Works</h2>
                         <h5 className='font- text-base pt-4 pb-8'>Using our nasal clip is effortless and effective. Follow these steps to enjoy better airflow and relief from snoring or congestion. </h5>
@@ -108,6 +109,31 @@ const Solution = () => {
                                 The magnets should be facing down..</p>
                         </div>
 
+                    </div>
+                </div>
+                {/* ------------------How It Works section--------------- */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-32  ">
+                    <div className='space-y-4'>
+                        <h2 className='text-5xl font-semibold text-white pb-4'>What’s in start kit</h2>
+
+                        {/* card-1 */}
+                        <div className='group bg-[#793f19] hover:bg-[#f97316] transition ease-in-out text-white rounded-xl py-7 '>
+
+                            <h4 className='text-2xl font-semibold  mx-4'>4 Bands</h4>
+                            <p className='font-normal text-sm pt-4 mx-4'>You can easily choose which works best for you.</p>
+                        </div>
+                        {/* card-2 */}
+                        <div className='group bg-[#793f19] hover:bg-[#f97316] transition ease-in-out text-white rounded-xl py-7 '>
+                            <h4 className='text-2xl font-semibold mt-2 mx-4'>15 or 30 Tabs</h4>
+                            <p className='font-normal text-sm pt-4 mx-4'>Tabs are made with 3M tape, they're safe for sensitive skin</p>
+                        </div>
+                        {/* card-3 */}
+                        <div className='group bg-[#793f19] hover:bg-[#f97316] transition ease-in-out text-white rounded-xl py-10 '>
+                            <h4 className='text-2xl font-semibold mt-2 mx-4'>Applicator</h4>
+                        </div>
+                    </div>
+                    <div className='h-full flex items-end'>
+                        <img className=' lg:h-[440px] w-full object-cover rounded-lg ' src={madicine} alt="" />
                     </div>
                 </div>
 
