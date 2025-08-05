@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa6";
+import logo from '../../assets/svg/LOGO.png'
 
 const Header = () => {
     return (
@@ -18,7 +19,7 @@ const Header = () => {
                             <li><a>Shop Bundles</a></li>
                         </ul>
                     </div>
-                    <a className=" text-xl text-[#f97316]">Airflow NoseClip</a>
+                    <img className='h-20' src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
