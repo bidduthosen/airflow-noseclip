@@ -82,22 +82,6 @@ const NoseClip = () => {
                     </Swiper>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-                {/* <div className=''>
-                    <img src={clipImg} alt="" />
-                </div> */}
-
                 <div>
                     <div className='flex items-center space-x-2 '>
                         <FaStar size={23} className='text-[#FFC107]' /> <FaStar size={23} className='text-[#FFC107]' /><FaStar size={23} className='text-[#FFC107]' /> <FaStar size={23} className='text-[#FFC107]' /> <FaStar size={23} className='text-[#FFC107]' />  <span className='text-lg font-semibold'>4.5</span> <span className='text-base'>(500+ Reviews)</span>
