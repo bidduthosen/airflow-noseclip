@@ -7,6 +7,7 @@ import Solution from './Components/Solution/Solution'
 import RealResult from './Components/RealResult/RealResult'
 import Footer from './Components/Footer/Footer'
 import Customer from './Components/Customer/Customer'
+import Science from './Components/Customer/Science/Science'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <NoseClip></NoseClip>
         <Solution></Solution>
         <RealResult></RealResult>
+        <Science></Science>
         <Customer></Customer>
         <Footer></Footer>
       </section>
