@@ -26,7 +26,7 @@ import './Noseclip.css'
 const NoseClip = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     return (
-        <div className='lg:container mx-auto px-5 md:px-10 mt-11 mb-12'>
+        <div className='lg:container mx-auto px-5 md:px-10 mt-12 lg:mt-20'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
 
                 {/* slider */}
@@ -42,7 +42,7 @@ const NoseClip = () => {
                         modules={[FreeMode, Navigation, Thumbs]}
                         className="mySwiper2 rounded-xl"
                     >
-                        <SwiperSlide className='bg-[#f97316]'>
+                        <SwiperSlide>
                             <img src={nose1} />
                         </SwiperSlide>
                         <SwiperSlide className='bg-purple-300'>
@@ -51,7 +51,7 @@ const NoseClip = () => {
                         <SwiperSlide className='bg-pink-300'>
                             <img src={nose3} />
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide className='bg-orange-300'>
                             <img src={nose4} />
                         </SwiperSlide>
                         

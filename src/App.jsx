@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import HeroBanner from './Components/HeroBanner/HeroBanner'
 import NoseClip from './Components/NoseClip/NoseClip'
+import SolutionOverView from './Components/SolutionOverView/SolutionOverView'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
         <Header></Header>
         <HeroBanner></HeroBanner>
         <NoseClip></NoseClip>
+        <SolutionOverView></SolutionOverView>
 
       </section>
     </>
